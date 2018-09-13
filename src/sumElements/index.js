@@ -12,6 +12,8 @@
  */
 const sumElements = arr => {
   /* your logic here...*/
+  let sum = 0;
+  arr.forEach(el => sum += Number(el) || 0 );
 };
 
 export default sumElements;
